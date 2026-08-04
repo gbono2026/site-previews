@@ -1,0 +1,91 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HairByRoza Beauty Salon | Hair Salon</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Nunito+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--brand:#8a2f63;--accent:#d98aa6;--ink:#3a2a3f;--soft:#f8eef4}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Nunito Sans',system-ui,sans-serif;color:var(--ink);line-height:1.7;background:#fff}
+a{text-decoration:none;color:inherit}
+.wrap{max-width:1120px;margin:0 auto;padding:0 28px}
+h1,h2,h3,.logo{font-family:'Fraunces',Georgia,serif;font-weight:600;line-height:1.12}
+.eyebrow{text-transform:uppercase;letter-spacing:.28em;font-size:.72rem;font-weight:600;color:var(--accent);margin-bottom:14px}
+.btn{display:inline-block;font-family:'Nunito Sans',sans-serif;font-weight:600;font-size:.92rem;letter-spacing:.02em;padding:15px 30px;border-radius:2px;background:var(--accent);color:#fff}
+header{position:absolute;top:0;left:0;right:0;z-index:5}
+.nav{display:flex;align-items:center;justify-content:space-between;height:88px;color:#fff}
+.logo{font-size:1.5rem;color:#fff}
+.menu{display:flex;gap:34px;font-size:.82rem;letter-spacing:.16em;text-transform:uppercase}
+.menu a{opacity:.9} .menu a:hover{opacity:1}
+.nav .btn{padding:11px 22px}
+@media(max-width:820px){.menu{display:none}}
+.hero{ background:linear-gradient(180deg,rgba(0,0,0,.30),rgba(0,0,0,.60)),url('p1.jpg') center/cover no-repeat; min-height:92vh;display:flex;align-items:center;color:#fff;position:relative}
+.hero .inner{max-width:780px}
+.hero h1{font-size:4.4rem;margin-bottom:18px}
+.hero .lead{font-size:1.3rem;max-width:46ch;opacity:.95;margin-bottom:22px}
+.badge{display:inline-block;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.4);backdrop-filter:blur(4px);padding:9px 18px;border-radius:2px;font-weight:600;margin-bottom:30px;font-size:.9rem}
+section{padding:104px 0}
+.services h2{font-size:2.6rem;color:var(--brand);margin-bottom:8px}
+.svcgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:2px;margin-top:44px;background:var(--soft);border:1px solid var(--soft)}
+.svc{background:#fff;padding:38px 30px}
+.svc span{font-family:'Fraunces',serif;font-size:1.1rem;color:var(--accent)}
+.svc h3{font-size:1.4rem;color:var(--brand);margin-top:8px}
+.gallery{padding:0}
+.gwrap{display:grid;grid-template-columns:repeat(4,1fr);gap:2px}
+.gimg{aspect-ratio:1/1}
+@media(max-width:820px){.svcgrid{grid-template-columns:1fr} .gwrap{grid-template-columns:1fr 1fr} .hero h1{font-size:2.8rem}}
+.reviews{background:var(--soft)}
+.reviews h2{font-size:2.6rem;color:var(--brand);margin-bottom:44px}
+.revgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.rev{background:#fff;padding:34px;border-radius:2px}
+.rstars{color:var(--accent);margin-bottom:14px}
+.rev blockquote{font-family:'Fraunces',serif;font-size:1.25rem;line-height:1.5;margin-bottom:16px;color:var(--brand)}
+.rev figcaption{font-weight:600;font-size:.9rem;letter-spacing:.04em}
+@media(max-width:820px){.revgrid{grid-template-columns:1fr}}
+.visit{background:var(--brand);color:#fff}
+.visit .cols{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}
+.visit h2{font-size:2.6rem;margin-bottom:14px}
+.visit p{opacity:.85;margin-bottom:26px;max-width:38ch}
+.hours h3{font-family:'Fraunces',serif;font-size:1.5rem;margin-bottom:14px}
+.hours ul{list-style:none} .hours li{padding:8px 0;border-bottom:1px solid rgba(255,255,255,.16);opacity:.9;font-size:.95rem}
+@media(max-width:820px){.visit .cols{grid-template-columns:1fr;gap:36px}}
+footer{background:#111;color:#bbb;padding:40px 0;text-align:center;font-size:.9rem}
+</style></head><body>
+<header><div class="wrap nav">
+  <span class="logo">HairByRoza Beauty Salon</span>
+  <nav class="menu"><a href="#services">Services</a><a href="#reviews">Reviews</a><a href="#visit">Visit</a></nav>
+  <a href="tel:5757775727" class="btn">Call (575) 777-5727</a>
+</div></header>
+
+<div class="hero"><div class="wrap inner">
+  <p class="eyebrow" style="color:#fff">Hair Salon</p>
+  <h1>HairByRoza Beauty Salon</h1>
+  <p class="lead">Look and feel your best.</p>
+  <div class="badge">★★★★★&nbsp; 4.8 · 394 Google reviews</div>
+  <div><a href="tel:5757775727" class="btn">Call (575) 777-5727</a></div>
+</div></div>
+
+<section id="services" class="services"><div class="wrap">
+  <p class="eyebrow">What we do</p><h2>Our Services</h2>
+  <div class="svcgrid"><div class="svc"><span>01</span><h3>Cuts &amp; Styling</h3></div><div class="svc"><span>02</span><h3>Color &amp; Highlights</h3></div><div class="svc"><span>03</span><h3>Blowouts</h3></div><div class="svc"><span>04</span><h3>Treatments</h3></div><div class="svc"><span>05</span><h3>Special Occasions</h3></div><div class="svc"><span>06</span><h3>Consultations</h3></div></div>
+</div></section>
+
+<section class="gallery"><div class="gwrap"><div class="gimg" style="background:url('p2.jpg') center/cover"></div><div class="gimg" style="background:url('p3.jpg') center/cover"></div><div class="gimg" style="background:url('p4.jpg') center/cover"></div></div></section>
+<section id="reviews" class="reviews"><div class="wrap"><p class="eyebrow">Reviews</p><h2>What people say</h2><div class="revgrid"><figure class="rev"><div class="rstars">★★★★★</div><blockquote>“I absolutely loved my experience at this salon 🤍
+I came in for a hair color transformation, and the result exceeded all of my expectations. My hair looks beautiful, healthy, and exactly how I dreamed it would.
+
+What made the experience even more special was th”</blockquote><figcaption>Meerim</figcaption></figure><figure class="rev"><div class="rstars">★★★★★</div><blockquote>“I did my highlights with Roza 2 times already and this time i did highlights and hair Extensions with Anjela .It is amazing i love the result the girls are amazing. The salon is beatiful and clean. Amazing service
+Recomendó😀😀”</blockquote><figcaption>Eneroliza Santana</figcaption></figure><figure class="rev"><div class="rstars">★★★★★</div><blockquote>“I recently had an exceptional experience at this hair salon, and it truly exceeded all my expectations. From the moment I walked in, I was welcomed with a warm and professional atmosphere that immediately made me feel comfortable. The staff was incredibly atte”</blockquote><figcaption>LESLIE CAROLINA MORENO FIGUEREDO</figcaption></figure></div></div></section>
+
+<section id="visit" class="visit"><div class="wrap"><div class="cols">
+  <div>
+    <p class="eyebrow" style="color:var(--accent)">Visit</p>
+    <h2>Come see us</h2>
+    <p>206 Avenue U, Brooklyn, NY 11223, USA</p>
+    <a href="tel:5757775727" class="btn">Call (575) 777-5727</a>
+  </div>
+  <div class="hours"><h3>Hours</h3><ul><li>Monday: 9:00 AM – 6:00 PM</li><li>Tuesday: 9:00 AM – 6:00 PM</li><li>Wednesday: 9:00 AM – 6:00 PM</li><li>Thursday: 9:00 AM – 6:00 PM</li><li>Friday: 9:00 AM – 6:00 PM</li><li>Saturday: 9:00 AM – 6:00 PM</li><li>Sunday: 9:00 AM – 6:00 PM</li></ul></div>
+</div></div></section>
+
+<footer>HairByRoza Beauty Salon &nbsp;·&nbsp; (575) 777-5727 &nbsp;·&nbsp; 206 Avenue U, Brooklyn, NY 11223, USA</footer>
+</body></html>
