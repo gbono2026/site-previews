@@ -1,0 +1,93 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fade U. | Barbershop</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--brand:#111318;--accent:#e0a25e;--ink:#20242c;--soft:#f2f2f0}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Inter',system-ui,sans-serif;color:var(--ink);line-height:1.7;background:#fff}
+a{text-decoration:none;color:inherit}
+.wrap{max-width:1120px;margin:0 auto;padding:0 28px}
+h1,h2,h3,.logo{font-family:'Cormorant Garamond',Georgia,serif;font-weight:600;line-height:1.12}
+.eyebrow{text-transform:uppercase;letter-spacing:.28em;font-size:.72rem;font-weight:600;color:var(--accent);margin-bottom:14px}
+.btn{display:inline-block;font-family:'Inter',sans-serif;font-weight:600;font-size:.92rem;letter-spacing:.02em;padding:15px 30px;border-radius:2px;background:var(--accent);color:#fff}
+header{position:absolute;top:0;left:0;right:0;z-index:5}
+.nav{display:flex;align-items:center;justify-content:space-between;height:88px;color:#fff}
+.logo{font-size:1.5rem;color:#fff}
+.menu{display:flex;gap:34px;font-size:.82rem;letter-spacing:.16em;text-transform:uppercase}
+.menu a{opacity:.9} .menu a:hover{opacity:1}
+.nav .btn{padding:11px 22px}
+@media(max-width:820px){.menu{display:none}}
+.hero{ background:linear-gradient(180deg,rgba(0,0,0,.30),rgba(0,0,0,.60)),url('p1.jpg') center/cover no-repeat; min-height:92vh;display:flex;align-items:center;color:#fff;position:relative}
+.hero .inner{max-width:780px}
+.hero h1{font-size:4.4rem;margin-bottom:18px}
+.hero .lead{font-size:1.3rem;max-width:46ch;opacity:.95;margin-bottom:22px}
+.badge{display:inline-block;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.4);backdrop-filter:blur(4px);padding:9px 18px;border-radius:2px;font-weight:600;margin-bottom:30px;font-size:.9rem}
+section{padding:104px 0}
+.services h2{font-size:2.6rem;color:var(--brand);margin-bottom:8px}
+.svcgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:2px;margin-top:44px;background:var(--soft);border:1px solid var(--soft)}
+.svc{background:#fff;padding:38px 30px}
+.svc span{font-family:'Cormorant Garamond',serif;font-size:1.1rem;color:var(--accent)}
+.svc h3{font-size:1.4rem;color:var(--brand);margin-top:8px}
+.gallery{padding:0}
+.gwrap{display:grid;grid-template-columns:repeat(4,1fr);gap:2px}
+.gimg{aspect-ratio:1/1}
+@media(max-width:820px){.svcgrid{grid-template-columns:1fr} .gwrap{grid-template-columns:1fr 1fr} .hero h1{font-size:2.8rem}}
+.reviews{background:var(--soft)}
+.reviews h2{font-size:2.6rem;color:var(--brand);margin-bottom:44px}
+.revgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.rev{background:#fff;padding:34px;border-radius:2px}
+.rstars{color:var(--accent);margin-bottom:14px}
+.rev blockquote{font-family:'Cormorant Garamond',serif;font-size:1.25rem;line-height:1.5;margin-bottom:16px;color:var(--brand)}
+.rev figcaption{font-weight:600;font-size:.9rem;letter-spacing:.04em}
+@media(max-width:820px){.revgrid{grid-template-columns:1fr}}
+.visit{background:var(--brand);color:#fff}
+.visit .cols{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}
+.visit h2{font-size:2.6rem;margin-bottom:14px}
+.visit p{opacity:.85;margin-bottom:26px;max-width:38ch}
+.hours h3{font-family:'Cormorant Garamond',serif;font-size:1.5rem;margin-bottom:14px}
+.hours ul{list-style:none} .hours li{padding:8px 0;border-bottom:1px solid rgba(255,255,255,.16);opacity:.9;font-size:.95rem}
+@media(max-width:820px){.visit .cols{grid-template-columns:1fr;gap:36px}}
+footer{background:#111;color:#bbb;padding:40px 0;text-align:center;font-size:.9rem}
+body{padding-bottom:50px}
+.demo-ribbon{position:fixed;top:20px;right:-54px;z-index:9999;background:var(--accent);color:#fff;font-family:'Inter',sans-serif;font-weight:700;font-size:.78rem;letter-spacing:.24em;padding:8px 62px;transform:rotate(45deg);box-shadow:0 3px 12px rgba(0,0,0,.28)}
+.demo-bar{position:fixed;bottom:0;left:0;right:0;z-index:9999;background:#111;color:#fff;text-align:center;font-family:'Inter',sans-serif;font-size:.82rem;letter-spacing:.02em;padding:12px 16px;border-top:2px solid var(--accent)}
+.demo-bar b{color:var(--accent);letter-spacing:.1em}
+</style></head><body>
+<div class="demo-ribbon">DEMO</div>
+<div class="demo-bar"><b>PREVIEW ONLY</b> &nbsp;·&nbsp; This is a sample website, not published. Contact us to publish your real site on your own domain.</div>
+<header><div class="wrap nav">
+  <span class="logo">Fade U.</span>
+  <nav class="menu"><a href="#services">Services</a><a href="#reviews">Reviews</a><a href="#visit">Visit</a></nav>
+  <a href="tel:3233662989" class="btn">Call (323) 366-2989</a>
+</div></header>
+
+<div class="hero"><div class="wrap inner">
+  <p class="eyebrow" style="color:#fff">Barbershop</p>
+  <h1>Fade U.</h1>
+  <p class="lead">Sharp cuts. Classic service.</p>
+  <div class="badge">★★★★★&nbsp; 4.6 · 762 Google reviews</div>
+  <div><a href="tel:3233662989" class="btn">Call (323) 366-2989</a></div>
+</div></div>
+
+<section id="services" class="services"><div class="wrap">
+  <p class="eyebrow">What we do</p><h2>Our Services</h2>
+  <div class="svcgrid"><div class="svc"><span>01</span><h3>Haircuts</h3></div><div class="svc"><span>02</span><h3>Beard Trims</h3></div><div class="svc"><span>03</span><h3>Hot Towel Shave</h3></div><div class="svc"><span>04</span><h3>Fades</h3></div><div class="svc"><span>05</span><h3>Kids Cuts</h3></div><div class="svc"><span>06</span><h3>Walk-ins Welcome</h3></div></div>
+</div></section>
+
+<section class="gallery"><div class="gwrap"><div class="gimg" style="background:url('p2.jpg') center/cover"></div><div class="gimg" style="background:url('p3.jpg') center/cover"></div><div class="gimg" style="background:url('p4.jpg') center/cover"></div></div></section>
+<section id="reviews" class="reviews"><div class="wrap"><p class="eyebrow">Reviews</p><h2>What people say</h2><div class="revgrid"><figure class="rev"><div class="rstars">★★★★★</div><blockquote>“Great experience! Trell truly is an expert barber! Brought my line back. Definitely recommended”</blockquote><figcaption>Jonathan Rozelle</figcaption></figure><figure class="rev"><div class="rstars">★★★★★</div><blockquote>“Hands down the best barber I’ve experienced in the last 6yrs of living in LA. Trell pays sharp attention to detail and has the skills to execute whatever you request. My waves haven’t been this wavy and my line up hasn’t been this crispy in years. Something I ”</blockquote><figcaption>Ty Stewart</figcaption></figure><figure class="rev"><div class="rstars">★★★★★</div><blockquote>“Fade U Barber Shop 10/10 Great Shop. Comfortable Vibe Inside The Shop! All Barbers Are Professionals! Very Clean &amp; Well Kept.  Ryan Is My Go Too! Fair &amp; Caring Person. Its Hard to find Barbershops In Los Angeles with Reasonable Prices &amp; Non Difficult Process T”</blockquote><figcaption>TFW</figcaption></figure></div></div></section>
+
+<section id="visit" class="visit"><div class="wrap"><div class="cols">
+  <div>
+    <p class="eyebrow" style="color:var(--accent)">Visit</p>
+    <h2>Come see us</h2>
+    <p>1433 Highland Ave, Los Angeles, CA 90028, USA</p>
+    <a href="tel:3233662989" class="btn">Call (323) 366-2989</a>
+  </div>
+  <div class="hours"><h3>Hours</h3><ul><li>Monday: 10:00 AM – 8:00 PM</li><li>Tuesday: 10:00 AM – 8:00 PM</li><li>Wednesday: 10:00 AM – 8:00 PM</li><li>Thursday: 10:00 AM – 8:00 PM</li><li>Friday: 10:00 AM – 8:00 PM</li><li>Saturday: 10:00 AM – 8:00 PM</li><li>Sunday: Closed</li></ul></div>
+</div></div></section>
+
+<footer>Fade U. &nbsp;·&nbsp; (323) 366-2989 &nbsp;·&nbsp; 1433 Highland Ave, Los Angeles, CA 90028, USA</footer>
+</body></html>
